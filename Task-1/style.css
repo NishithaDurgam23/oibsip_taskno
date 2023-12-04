@@ -1,0 +1,78 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    color: floralwhite;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.header {
+    padding: 1rem;
+    text-align: center;
+}
+
+    .header > .title {
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        color: navajowhite;
+    }
+
+.tribute {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .tribute blockquote {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #555;
+        margin-bottom: 1rem;
+    }
+
+    .tribute img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-top: 1rem;
+        order: -1;
+    }
+
+.bio {
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 600px;
+    order: 1; 
+}
+
+    .bio > h2 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        color: navajowhite;
+    }
+
+    .bio > p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: white;
+    }
+
+    .bio > hr {
+        margin-top: 1rem;
+        border: 1px solid #ddd;
+    }
